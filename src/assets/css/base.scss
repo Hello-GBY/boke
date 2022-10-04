@@ -1,0 +1,26 @@
+@import '/node_modules/normalize.css/normalize.css';
+@import './base-ui.scss';
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body, #app{
+  width: 100%;
+  height: auto;
+
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container {
+  max-width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
