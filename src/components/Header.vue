@@ -14,7 +14,17 @@
     </nav>
   </header>
 </template>
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import { storeToRefs } from "pinia";
+import { headerStyle } from "@/stores/counter";
+import { computed } from 'vue'
+const headerStyleInstance = headerStyle();
+const { headerStyleSystem } = storeToRefs(headerStyleInstance);
+const backgroundColor = computed(() => {
+  return headerStyleSystem.value.backgroundColor
+})
+
+</script>
 <style lang="scss">
 .blog-header {
   #nav {
@@ -32,7 +42,8 @@
     &.navbar {
       padding-top: 1rem;
       padding-bottom: 1rem;
-      background: var(--lighting);
+      // background: var(--lighting);
+      background: v-bind(backgroundColor);
       padding-right: 0px;
       padding-left: 0px;
     }

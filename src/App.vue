@@ -1,9 +1,8 @@
 <template>
-  <!-- <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div> -->
+  <Header />
   <router-view />
 </template>
-
+<script lang="ts" setup>
+  import Header from "@/components/Header.vue"; // @ is an alias to /src
+  </script>
 <style lang="scss"></style>
