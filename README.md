@@ -1,27 +1,17 @@
 # boke
+资源网站，提供一个使用Thingjs语言开发者的一个生态
+设想是 用户可以上传自己的3D 、可视化效果，在网站上可以查看源码，分享新的设计思路，另外在平台上提供 3d可视化定制服务。 
+构建一个开发者生态。
 
-## Project setup
-```
-npm install
-```
+# 成员
+目前两位小伙伴 一起在开发这个项目，欢迎加入，我们想一些新的点子。早日发发发
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# 部署分支为
+main
 
-### Compiles and minifies for production
-```
-npm run build
-```
+# 开发分支为
+develop
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).123
 
 
 ## 参考网站
